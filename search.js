@@ -14,8 +14,25 @@ const Hit = ({hit}) =>
       <div className = "hitName">
         <Highlight attribute = "name" hit = {hit}/>
       </div>
-
   </div>
+
+const Channels = () =>
+  <div className = "Channels">
+    <Hits hitComponent = {Hit}/>
+  </div>
+
+
+const Names = () =>
+  <div className = "Names">
+    <Hits hitComponent = {Hit}/>
+  </div>
+
+
+const Messages = () =>
+  <div className = "Messages">
+    <Hits hitComponent = {Hit}/>
+  </div>
+
 
 const Content = () =>
   <div className = "content">

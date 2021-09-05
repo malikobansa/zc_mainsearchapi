@@ -1,10 +1,5 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import App from './App'
+function AppsAndIntegrations() {
+  return <div>This is Apps and Integrations Page</div>
+}
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('zc-root')
-)
+export default AppsAndIntegrations
